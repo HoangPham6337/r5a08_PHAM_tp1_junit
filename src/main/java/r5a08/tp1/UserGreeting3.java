@@ -8,5 +8,5 @@ public class UserGreeting3 {
             throw new UserGreetingFailureException("Le paramètre ne doit pas contenir de caractères spéciaux, ni d'espaces");
         }
         return "Bonjour, " + nom;
-    }
+    }   
 }
